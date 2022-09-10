@@ -1,7 +1,7 @@
 {
   "name": "try-steamship",
   "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your product.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Steamship",
   "bin": {
     "default": "./bin/run"
@@ -20,6 +20,9 @@
   "keywords": [
     "Steamship", "NLP", "AI", "Language Models", "Natural Language Processing"
   ],
+  "scripts": {
+    "try-steamship": "node ./bin/run.js"
+  },
   "license": "MIT",
   "repository": "https://github.com/steamship-core/try-steamship"
 }
