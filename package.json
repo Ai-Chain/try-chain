@@ -1,10 +1,10 @@
 {
   "name": "try-steamship",
   "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your product.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Steamship",
   "bin": {
-    "default": "./bin/run"
+    "default": "node ./bin/run.js"
   },
   "bugs": "https://github.com/nludb/nludb-cli/issues",
   "dependencies": {
