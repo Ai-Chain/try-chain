@@ -1,0 +1,25 @@
+{
+  "name": "try-steamship",
+  "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your product.",
+  "version": "1.0.0",
+  "author": "Steamship",
+  "bin": {
+    "default": "./bin/run"
+  },
+  "bugs": "https://github.com/nludb/nludb-cli/issues",
+  "dependencies": {
+    "@steamship/cli": "1.0.34"
+  },
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "files": [
+    "/bin"
+  ],
+  "homepage": "https://www.steamship.com/",
+  "keywords": [
+    "Steamship", "NLP", "AI", "Language Models", "Natural Language Processing"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/steamship-core/try-steamship"
+}
