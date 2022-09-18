@@ -1,14 +1,14 @@
 {
   "name": "try-steamship",
   "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your product.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Steamship",
   "bin": {
     "try": "bin/index.js"
   },
   "bugs": "https://github.com/steamship-core/try-steamship/issues",
   "dependencies": {
-    "@steamship/cli": "1.0.34"
+    "@steamship/cli": "1.0.36"
   },
   "engines": {
     "node": ">=14.8.0"
