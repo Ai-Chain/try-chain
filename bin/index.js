@@ -1,23 +1,21 @@
 #!/usr/bin/env node
 
-import {Config, Errors, flush, run} from '@oclif/core';
+import {Errors, flush, run} from '@oclif/core';
 import Try from '@steamship/cli/try.js';
 
-import path from 'path';
-import { fileURLToPath } from 'url';
+while (process.argv.length > 0) {
+    if (process.argv[0].indexOf('bin/index.js') > 0) {
+        // dev mode
+        process.argv.shift()
+        break
+    } else if (process.argv[0] == 'try-streamship') {
+        process.argv.shift()
+        break
+    } else {
+        process.argv.shift()
+    }
+}
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// The purpose of the try-steamship NPM package is to invoke the `ship try` command
-// with no setup.
-
-// process.argv.splice(2, 0, 'try')
-
-const config = await Config.load(__dirname)
-
-await config.runCommand('ship', process.argv, new Try())
-
-// (new Try()).run(process.argv, import.meta.url)
-//     .then(flush)
-//     .catch(Errors.handle);
+Try.run(process.argv, import.meta.url)
+    .then(flush)
+    .catch(Errors.handle);
