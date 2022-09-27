@@ -2,15 +2,13 @@
   "name": "try-steamship",
   "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your product.",
   "author": "Steamship",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "main": "bin/index.js",
   "module": "bin/index.js",
-  "bin": {
-    "try": "bin/index.js"
-  },
+  "bin":  "bin/index.js",
   "exports": {
-    ".": "./bin /index.js",
+    ".": "./bin/index.js",
     "./package.json": "./package.json"
   },
   "bugs": "https://github.com/steamship-core/try-steamship/issues",

@@ -8,7 +8,7 @@ while (process.argv.length > 0) {
         // dev mode
         process.argv.shift()
         break
-    } else if (process.argv[0] == 'try-streamship') {
+    } else if (process.argv[0].endsWith('try-steamship')) {
         process.argv.shift()
         break
     } else {
