@@ -1,7 +1,7 @@
 {
-  "name": "try-steamship",
-  "description": "Quickly try a Steamship package. Steamship is the fastest way to add language AI to your software.",
-  "author": "Steamship",
+  "name": "try-chain",
+  "description": "Quickly try a Ai-Chain package. Steamship is the fastest way to add language AI to your software.",
+  "author": "Ai-Chain",
   "version": "2.2.1",
   "type": "module",
   "main": "bin/index.js",
@@ -11,7 +11,7 @@
     ".": "./bin/index.js",
     "./package.json": "./package.json"
   },
-  "bugs": "https://github.com/steamship-core/try-steamship/issues",
+  "bugs": "https://github.com/ai-chain/try-chain/issues",
   "dependencies": {
     "@steamship/cli": "2.2.1"
   },
@@ -21,7 +21,7 @@
   "files": [
     "/bin"
   ],
-  "homepage": "https://www.steamship.com/",
+  "homepage": "https://ai-chain.github.io",
   "keywords": [
     "Steamship",
     "NLP",
@@ -30,5 +30,5 @@
     "Natural Language Processing"
   ],
   "license": "MIT",
-  "repository": "https://github.com/steamship-core/try-steamship"
+  "repository": "https://github.com/ai-chain/try-chain"
 }
